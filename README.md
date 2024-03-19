@@ -1,6 +1,8 @@
 # Docker Crach Course 
 Docker is a container management tool, that makes it easy to run applications on any computer in an isolated container, that includes everything it needs to run predictably.
-#
+
+![Arquitetura Docker](https://github.com/omar-gamel/docker-crash-course/blob/master/ArquiteturaDocker.png)
+
 <h3>Containers vs VMs</h3>
 <ul>
    <li>Virtual Machines :</li>
