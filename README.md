@@ -16,7 +16,7 @@ Docker is a container management tool, that makes it easy to run applications on
    <li>Install WSL : https://docs.microsoft.com/en-us/windows/wsl/install-win10</li> 
    <li>Manual installation steps for older versions of WSL: https://learn.microsoft.com/en-us/windows/wsl/install-manual</li> 
        1- Enable the Windows Subsystem for Linux :<br>
-          <pre> $ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</pre>
+	<pre> $ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</pre>
        2- Check requirements for running WSL 2 : To update to WSL 2, you must be running Windows 10...<br>
        3- Enable Virtual Machine feature :
 	  <pre>$ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</pre>
