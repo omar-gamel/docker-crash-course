@@ -4,31 +4,30 @@ Docker is a container management tool, that makes it easy to run applications on
 ![Arquitetura Docker](https://github.com/omar-gamel/docker-crash-course/blob/master/ArquiteturaDocker.png)
 
 <h3>Containers vs VMs</h3>
-<ul>
-   <li>Virtual Machines :</li>
-   Has ite's own full operating system & typically slower
-   <li>Containers :</li>
+ 
+- Virtual Machines : </br>
+  Has ite's own full operating system & typically slower
+- Containers : </br>
    Share the host's operating system & typically quicker
-</ul> 
 
 #
 
 <h3>Intalling Docker</h3>
-<ul>
-   <li>Install WSL : https://docs.microsoft.com/en-us/windows/wsl/install-win10</li> 
-   <li>Manual installation steps for older versions of WSL: https://learn.microsoft.com/en-us/windows/wsl/install-manual</li> 
-       1. Enable the Windows Subsystem for Linux :<br>
+ 
+   - Install WSL : https://docs.microsoft.com/en-us/windows/wsl/install-win10 
+   - Manual installation steps for older versions of WSL: https://learn.microsoft.com/en-us/windows/wsl/install-manual </br>
+       1- Enable the Windows Subsystem for Linux :<br>
 	<pre> $ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</pre>
-       2. Check requirements for running WSL 2 : To update to WSL 2, you must be running Windows 10...<br>
-       3. Enable Virtual Machine feature :
+       2- Check requirements for running WSL 2 : To update to WSL 2, you must be running Windows 10...<br>
+       3- Enable Virtual Machine feature :
 	  <pre>$ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</pre>
-       4. Download the Linux kernel update package :
+       4- Download the Linux kernel update package :
 	  <pre>$ https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi</pre> 
-       5. Download the Linux kernel update package :
+       5- Download the Linux kernel update package :
           <pre>$ wsl --set-default-version 2</pre>
-       6. Install your Linux distribution of choice : Open the Microsoft Store and select your favorite Linux distribution.
+       6- Install your Linux distribution of choice : Open the Microsoft Store and select your favorite Linux distribution.
   
-</ul> 
+ 
 
 #
 
