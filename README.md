@@ -59,7 +59,7 @@ Docker is a container management tool, that makes it easy to run applications on
 	<li>Get all container</li> 
 	   <pre>$ docker ps -a</pre>	
 	<li>Get running container</li> 
-	   <pre>$ dcoker ps</pre>	
+	   <pre>$ docker ps</pre>	
 	<li>Get all imagese</li> 
 	   <pre>$ docker images</pre>		
 	<li>Stop running container</li> 
