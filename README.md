@@ -17,16 +17,16 @@ Docker is a container management tool, that makes it easy to run applications on
 <ul>
    <li>Install WSL : https://docs.microsoft.com/en-us/windows/wsl/install-win10</li> 
    <li>Manual installation steps for older versions of WSL: https://learn.microsoft.com/en-us/windows/wsl/install-manual</li> 
-       1- Enable the Windows Subsystem for Linux :<br>
+       1. Enable the Windows Subsystem for Linux :<br>
 	<pre> $ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</pre>
-       2- Check requirements for running WSL 2 : To update to WSL 2, you must be running Windows 10...<br>
-       3- Enable Virtual Machine feature :
+       2. Check requirements for running WSL 2 : To update to WSL 2, you must be running Windows 10...<br>
+       3. Enable Virtual Machine feature :
 	  <pre>$ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</pre>
-       4- Download the Linux kernel update package :
+       4. Download the Linux kernel update package :
 	  <pre>$ https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi</pre> 
-       5- Download the Linux kernel update package :
+       5. Download the Linux kernel update package :
           <pre>$ wsl --set-default-version 2</pre>
-       6- Install your Linux distribution of choice : Open the Microsoft Store and select your favorite Linux distribution.
+       6. Install your Linux distribution of choice : Open the Microsoft Store and select your favorite Linux distribution.
   
 </ul> 
 
